@@ -32,6 +32,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/matisselte/proprietary/bin/rild:system/bin/rild \
 	vendor/samsung/matisselte/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	vendor/samsung/matisselte/proprietary/bin/time_daemon:system/bin/time_daemon \
+	vendor/samsung/matisselte/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/samsung/matisselte/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
 	vendor/samsung/matisselte/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
 	vendor/samsung/matisselte/proprietary/etc/B08QT_imx175_module_info.xml:system/etc/B08QT_imx175_module_info.xml \
@@ -351,23 +352,4 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/matisselte/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
 	vendor/samsung/matisselte/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
 	vendor/samsung/matisselte/proprietary/vendor/lib/hw/power.qcom.so:system/vendor/lib/hw/power.qcom.so \
-	vendor/samsung/matisselte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-	vendor/samsung/matisselte/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
-	vendor/samsung/matisselte/proprietary/bin/qmuxd:system/bin/qmuxd \
-	vendor/samsung/matisselte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-	vendor/samsung/matisselte/proprietary/lib/libatparser.so:system/lib/libatparser.so \
-	vendor/samsung/matisselte/proprietary/lib/libcordon.so:system/lib/libcordon.so \
-	vendor/samsung/matisselte/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-	vendor/samsung/matisselte/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-	vendor/samsung/matisselte/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
-	vendor/samsung/matisselte/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-	vendor/samsung/matisselte/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
-	vendor/samsung/matisselte/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
-	vendor/samsung/matisselte/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-	vendor/samsung/matisselte/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
-	vendor/samsung/matisselte/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
-	vendor/samsung/matisselte/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
-	vendor/samsung/matisselte/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-	vendor/samsung/matisselte/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
-	vendor/samsung/matisselte/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
-	vendor/samsung/matisselte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so
+	vendor/samsung/matisselte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so 
